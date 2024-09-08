@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+float temp;
+printf("merci de tapez la température en Celsius :");
+scanf("%f",&temp);
+float k;
+k=temp+273.15;
+printf("la température en Kelvine est :%f",k);
+    return 0;
+}

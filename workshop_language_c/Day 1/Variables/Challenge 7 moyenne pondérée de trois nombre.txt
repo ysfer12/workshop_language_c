@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(){
+ float nbr1 , nbr2 ,nbr3 ,moy; 
+  printf("merci de saisir le nombre 1: ");
+  scanf("%f",&nbr1 );
+  printf("merci de saisir le nombre 2 : ");
+  scanf("%f",&nbr2 );
+  printf("merci de saisir le nombre 3 : ");
+  scanf("%f",&nbr3 );
+
+  nbr1 *=2;
+  nbr2 *= 3;
+  nbr3 *= 5;
+
+moy = (nbr1 + nbr2 + nbr3)/10;
+
+printf("la Moyenne est : %.2f ",moy);
+
+  return 0;
+}
