@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+int distance;
+printf("merci de tapez la distance en kilomètres :");
+scanf("%d",&distance);
+float Yards;
+Yards=distance*1093.61;
+printf("la distance en yards est :%f",Yards);
+    return 0;
+}

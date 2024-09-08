@@ -1,0 +1,29 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+int tableau[5];
+char nom[100];
+char prenom[100];
+int age;
+char sexe[20];
+char adresseMail[150];
+printf("le nom est : ");
+scanf("%s", &nom);
+printf("le prenom est : ");
+scanf("%s", &prenom);
+printf("le age est : ");
+scanf("%d", &age);
+printf("le sexe est : ");
+scanf("%s", &sexe);
+printf("l'adresse mail est : ");
+scanf("%s", &adresseMail);
+printf("%s %s %d %s %s",nom, prenom, age , sexe, adresseMail);
+
+
+
+
+
+
+    return 0;
+}

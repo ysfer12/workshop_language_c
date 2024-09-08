@@ -1,0 +1,21 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+float C;
+printf("merci de tapez la température en Celsius C : ");
+scanf("%f",&C);
+if(C<0){
+    printf("l'état de l'eau est solide");
+}
+else if(C>=0 && C<100){
+        printf("l'état de l'eau est Liquide");
+
+}
+else{
+        printf("l'état de l'eau est Gaz");
+
+}
+
+    return 0;
+}

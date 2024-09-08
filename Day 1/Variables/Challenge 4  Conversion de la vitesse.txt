@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+int vitesseKilometreHeure;
+printf("merci de tapez la vitesse en kilomètres par heure (km/h) :");
+scanf("%d",&vitesseKilometreHeure);
+float vitesseMetreSeconde;
+vitesseMetreSeconde=vitesseKilometreHeure*0.27778;
+printf("la vitesse en mètres par seconde (m/s) est :%f",vitesseMetreSeconde);
+    return 0;
+}
